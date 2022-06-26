@@ -1,0 +1,15 @@
+{
+    "Name": "fvnkhead.NoMelee",
+    "Description": "No-melee mod",
+    "Version": "1.0.0",
+    "LoadPriority": 2,
+    "Scripts": [
+        {
+            "Path": "no_melee.nut",
+            "RunOn": "MP",
+            "ServerCallback": {
+                "After": "NoMelee_Init"
+            }
+        }
+    ]
+}
